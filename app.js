@@ -7,7 +7,7 @@ function playerToString(player) {
 	return player.name + ", " + player.email + ", " + player.first;
 }
 
-let amigoSecreto = new Game(data.gameName, data.players);
+let amigoSecreto = new Game(data.gameName, data.players, data.giftValue, data.gameDate, data.gamePlace, data.avoidInGroupPairing);
 
 console.log("Running game for " + amigoSecreto.getName());
 console.log("Total players: " + amigoSecreto.getPlayers().length);

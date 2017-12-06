@@ -1,74 +1,95 @@
 {
-	"gameName": "Amigo Secreto da Família Torres",
+	"gameName": "Game",
+	"giftValue": {
+		"minValue": 1,
+		"maxValue": 2
+	},
+	"gameDate": "10/10/2010",
+	"gamePlace": "Someone's place",
+	"avoidInGroupPairing": true,
 	"players": [
 		{
 			"name": "Odimariles",
 			"email": "TODO@gmail.com",
+			"group": 1,
 			"first": true
 		},
 		{
 			"name": "Gabriela",
 			"email": "TODO@gmail.com",
+			"group": 2,
 			"first": false
 		},
 		{
 			"name": "Romeu",
 			"email": "TODO@gmail.com",
+			"group": 2,
 			"first": false
 		},
 		{
 			"name": "Filipe",
 			"email": "TODO@gmail.com",
+			"group": 3,
 			"first": false
 		},
 		{
 			"name": "Luciana",
 			"email": "TODO@gmail.com",
+			"group": 3,
 			"first": false
 		},
 		{
 			"name": "Heitor",
 			"email": "TODO@gmail.com",
+			"group": 3,
 			"first": false
 		},
 		{
 			"name": "Juliana",
 			"email": "TODO@gmail.com",
+			"group": 4,
 			"first": false
 		},
 		{
 			"name": "Malu Ribeiro",
 			"email": "TODO@gmail.com",
+			"group": 4,
 			"first": false
 		},
 		{
 			"name": "Nivaldo",
 			"email": "TODO@gmail.com",
+			"group": 5,
 			"first": false
 		},
 		{
 			"name": "Marta",
 			"email": "TODO@gmail.com",
+			"group": 5,
 			"first": false
 		},
 		{
 			"name": "Hugo",
 			"email": "TODO@gmail.com",
+			"group": 6,
 			"first": false
 		},
 		{
 			"name": "Cybelle",
 			"email": "TODO@gmail.com",
+			"group": 6,
 			"first": false
 		},
 		{
 			"name": "Igor",
 			"email": "TODO@gmail.com",
+			"group": 7,
 			"first": false
 		},
 		{
 			"name": "Malu (Igor)",
 			"email": "TODO@gmail.com",
+			"group": 7,
 			"first": false
 		}
 	]

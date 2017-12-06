@@ -1,8 +1,12 @@
 var method = Game.prototype;
 
-function Game(name, players) {
+function Game(name, players, giftValueRange, date, place, avoidInGroupMatching) {
 	this._name = name;
 	this._players = players;
+	this._giftValueRange = giftValueRange;
+	this._date = date;
+	this._place = place;
+	this._avoidInGroupMatching = avoidInGroupMatching;
 };
 
 method.getName = function() {
@@ -11,6 +15,26 @@ method.getName = function() {
 
 method.getPlayers = function() {
 	return this._players.slice();
+};
+
+method.getMaxGiftValue = function() {
+	return this._giftValueRange.maxValue;
+};
+
+method.getMinGiftValue = function() {
+	return this._giftValueRange.minValue;
+};
+
+method.getDate = function() {
+	return this._date;
+};
+
+method.getPlace = function() {
+	return this._place;
+};
+
+method.getAvoidInGroupMatching = function() {
+	return this._avoidInGroupMatching;
 };
 
 method.getFirst = function() {
