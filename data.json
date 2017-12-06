@@ -1,0 +1,75 @@
+{
+	"gameName": "Amigo Secreto da Família Torres",
+	"players": [
+		{
+			"name": "Odimariles",
+			"email": "TODO@gmail.com",
+			"first": true
+		},
+		{
+			"name": "Gabriela",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Romeu",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Filipe",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Luciana",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Heitor",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Juliana",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Malu Ribeiro",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Nivaldo",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Marta",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Hugo",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Cybelle",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Igor",
+			"email": "TODO@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Malu (Igor)",
+			"email": "TODO@gmail.com",
+			"first": false
+		}
+	]
+}
