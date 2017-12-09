@@ -1,96 +1,31 @@
 {
-	"gameName": "Game",
+	"gameName": "Friends & Family",
 	"giftValue": {
-		"minValue": 1,
-		"maxValue": 2
+		"minValue": "$ 50.00",
+		"maxValue": "$ 60.00"
 	},
-	"gameDate": "10/10/2010",
-	"gamePlace": "Someone's place",
-	"avoidInGroupPairing": true,
+	"gameDate": "10/10/2010 at 10PM",
+	"gamePlace": "At John's place",	
 	"players": [
 		{
-			"name": "Odimariles",
-			"email": "TODO@gmail.com",
-			"group": 1,
+			"name": "John",
+			"email": "mail@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Foo",
+			"email": "mail@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Bar",
+			"email": "mail@gmail.com",
+			"first": false
+		},
+		{
+			"name": "Tony",
+			"email": "mail@gmail.com",
 			"first": true
-		},
-		{
-			"name": "Gabriela",
-			"email": "TODO@gmail.com",
-			"group": 2,
-			"first": false
-		},
-		{
-			"name": "Romeu",
-			"email": "TODO@gmail.com",
-			"group": 2,
-			"first": false
-		},
-		{
-			"name": "Filipe",
-			"email": "TODO@gmail.com",
-			"group": 3,
-			"first": false
-		},
-		{
-			"name": "Luciana",
-			"email": "TODO@gmail.com",
-			"group": 3,
-			"first": false
-		},
-		{
-			"name": "Heitor",
-			"email": "TODO@gmail.com",
-			"group": 3,
-			"first": false
-		},
-		{
-			"name": "Juliana",
-			"email": "TODO@gmail.com",
-			"group": 4,
-			"first": false
-		},
-		{
-			"name": "Malu Ribeiro",
-			"email": "TODO@gmail.com",
-			"group": 4,
-			"first": false
-		},
-		{
-			"name": "Nivaldo",
-			"email": "TODO@gmail.com",
-			"group": 5,
-			"first": false
-		},
-		{
-			"name": "Marta",
-			"email": "TODO@gmail.com",
-			"group": 5,
-			"first": false
-		},
-		{
-			"name": "Hugo",
-			"email": "TODO@gmail.com",
-			"group": 6,
-			"first": false
-		},
-		{
-			"name": "Cybelle",
-			"email": "TODO@gmail.com",
-			"group": 6,
-			"first": false
-		},
-		{
-			"name": "Igor",
-			"email": "TODO@gmail.com",
-			"group": 7,
-			"first": false
-		},
-		{
-			"name": "Malu (Igor)",
-			"email": "TODO@gmail.com",
-			"group": 7,
-			"first": false
 		}
 	]
 }

@@ -1,0 +1,12 @@
+Hello {name},
+
+Here's the details for this year's game:
+
+Your secret friend is: {targetName}
+Date: {date}
+Place: {place}
+Gift Value: from {minValue} to {maxValue}
+
+Keep your secret friend name's secret and have fun!
+
+Friends and Family!
