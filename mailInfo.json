@@ -1,0 +1,7 @@
+{
+	"account": "senderMail@gmail.com",
+	"password": "passwordHere",
+	"dryRun": true,
+	"maximumRetries": 4,
+	"subject": "Your Secret Santa is here"
+}

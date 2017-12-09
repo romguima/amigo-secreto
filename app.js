@@ -1,25 +1,26 @@
 var format = require("string-template");
 var requireText = require("require-text");
+
+let mailInfo = require("./mailInfo")
 var mailer = require("gmail-send")({
-	user: 'mail@gmail.com',
-	pass: 'password',
-	subject: 'Sample subject'
+	user: mailInfo.account,
+	pass: mailInfo.password,
+	subject: mailInfo.subject
 });
 
-let maximumRetries = 4;
 let textTemplate = requireText("./textTemplate.txt", require);
 let htmlTemplate = requireText("./htmlTemplate.html", require);
 let data = require("./data");
 let Game = require("./game");
-var dryRun = true;
 
 function playerToString(player) {
 	return player.name + ", " + player.email + ", " + player.first;
 }
 
 let sendMail = function(step, content, retry) {
-	if (dryRun) {
+	if (mailInfo.dryRun) {
 		console.log("\n============================================");
+		console.log(format("From: {0}\nTo: {1}\nSubject: {2}\n", [mailInfo.account, step.player.email, mailInfo.subject]));
 		console.log(format(textTemplate, content));
 		console.log("\n===========================================");
 	} else {
@@ -33,7 +34,7 @@ let sendMail = function(step, content, retry) {
 			} else {
 				console.log("Error while sending mail to: " + playerToString(step.player));
 				console.log("Error details: \n" + err);
-				if (retry >= maximumRetries) {
+				if (retry >= mailInfo.maximumRetries) {
 					console.log("** ERROR: maximum number of attempts reached, exiting.");
 					process.exit(1);
 				}
