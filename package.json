@@ -1,0 +1,40 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romguima/amigo-secreto.git"
+  },
+  "dependencies": {
+    "gmail-send": {
+      "version": "1.2.11",
+      "resolved": "https://registry.npmjs.org/gmail-send/-/gmail-send-1.2.11.tgz",
+      "integrity": "sha1-8jN7dM6uvKnFpj7SGQIyRyUBxD4=",
+      "requires": {
+        "lodash": "4.17.4",
+        "nodemailer": "4.4.1"
+      }
+    },
+    "lodash": {
+      "version": "4.17.4",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz",
+      "integrity": "sha1-eCA6TRwyiuHYbcpkYONptX9AVa4="
+    },
+    "nodemailer": {
+      "version": "4.4.1",
+      "resolved": "https://registry.npmjs.org/nodemailer/-/nodemailer-4.4.1.tgz",
+      "integrity": "sha512-1bnszJJXatcHJhLpxQ1XMkLDjCjPKvGKMtRQ73FOsoNln3UQjddEQmz6fAwM3aj0GtQ3dQX9qtMHPelz63GU7A=="
+    },
+    "require-text": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/require-text/-/require-text-0.0.1.tgz",
+      "integrity": "sha1-zeej5EO3HBTh7A1c78/NQY3/1m4="
+    },
+    "string-template": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/string-template/-/string-template-1.0.0.tgz",
+      "integrity": "sha1-np8iM9wA8hhxjsN5oopWc+zKi5Y="
+    }
+  }
+}
